@@ -2,6 +2,8 @@ Vagrant.configure("2") do |config|
 
     # Linux OS CentOS
     config.vm.box = "geerlingguy/centos7"
+
+    config.vm.network "public_network"
   
     # jenkins server
     config.vm.define "jenkins-server" do |jenkins|
