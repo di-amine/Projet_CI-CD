@@ -61,4 +61,17 @@
 		</plugins>
 	</build>
 
+<distributionManagement>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>maven-snapshots</name>
+        <url>http://192.168.100.135:8081/repository/maven-snapshots/</url>
+    </snapshotRepository>
+    <repository>
+        <id>releases</id>
+        <name>maven-releases</name>
+        <url>http://192.168.100.135:8081/repository/maven-releases</url>
+    </repository>
+</distributionManagement>
+
 </project>
