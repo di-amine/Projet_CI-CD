@@ -2,7 +2,7 @@ Vagrant.configure("2") do |config|
 
   # Linux OS CentOS
   config.vm.box = "geerlingguy/centos7"
-
+  config.vm.network "public_network" 
   # nexus server
   config.vm.define "nexus-server" do |nexus|
     nexus.vm.hostname = "nexus.dev"
