@@ -93,7 +93,7 @@
 </distributionManagement>
 <scm>
    	<connection>scm:git:git@github.com:di-amine/Projet_CI-CD.git</connection>
-   	<url>http://github.com/Rsnip/projet_ci</url>
+   	<url>https://github.com/di-amine/Projet_CI-CD.git</url>
   	<!-- <developerConnection>scm:git:git@github.com:Rsnip/projet_ci.git</developerConnection>-->
   	<tag>HEAD</tag>
 </scm>
