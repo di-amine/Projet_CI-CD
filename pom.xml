@@ -22,9 +22,9 @@
 		<project.scm.id>github.com</project.scm.id>
 	</properties>
 	<scm>
-		<connection>scm:git:ssh://github.com/di-amine/Projet_CI-CD.git</connection>
-		<url>https://github.com/di-amine/Projet_CI-CD.git</url>
-		<developerConnection>scm:git:ssh://git@github.com/di-amine/Projet_CI-CD.git</developerConnection>
+		<connection>scm:git:git@github.com:di-amine/Projet_CI-CD.git</connection>
+		<url>http://github.com/di-amine/Projet_CI-CD</url>
+		<!--developerConnection>scm:git:ssh://git@github.com/di-amine/Projet_CI-CD.</developerConnection-->
 		<tag>HEAD</tag>
 	</scm>
 	<dependencies>
@@ -79,6 +79,7 @@
 			</plugin>
       		<plugin>
 				<artifactId>maven-release-plugin</artifactId>
+                                <version>2.4.2</version>
 				<configuration>
 				<autoVersionSubmodules>true</autoVersionSubmodules>
 				</configuration>
