@@ -23,7 +23,7 @@
 	</properties>
 	<scm>
 		<connection>scm:git:git@github.com:di-amine/Projet_CI-CD.git</connection>
-		<url>https://di-amine@github.com/di-amine/Projet_CI-CD.git</url>
+		<url>git@github.com:di-amine/Projet_CI-CD.git</url>
 		<developerConnection>scm:git:git@github.com:di-amine/Projet_CI-CD.git</developerConnection>
 		<tag>HEAD</tag>
 	</scm>
