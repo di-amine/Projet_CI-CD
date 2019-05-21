@@ -66,13 +66,146 @@
 			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-surefire-plugin</artifactId>
-				<version>2.22.1</version>
-				<configuration>
-					<testFailureIgnore>true</testFailureIgnore>
-				</configuration>
-			</plugin>
-      		<plugin>
+				<artifactId>maven-surefire-plug			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-enforcer-plugin</artifactId>
+				<version>3.0.0-M2</version>
+				<executions>
+				<execution>
+					<id>enforce-maven</id>
+					<goals>
+					<goal>enforce</goal>
+					</goals>
+					<configuration>
+					<rules>
+						<requireMavenVersion>
+						<version>3.0</version>
+						</requireMavenVersion>
+					</rules>    
+					</configuration>
+				</execution>
+				</executions>
+		</plugin>in</artifactId>
+				<version>2.22.1</version>			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-enforcer-plugin</artifactId>
+				<version>3.0.0-M2</version>
+				<executions>
+				<execution>
+					<id>enforce-maven</id>
+					<goals>
+					<goal>enforce</goal>
+					</goals>
+					<configuration>
+					<rules>
+						<requireMavenVersion>
+						<version>3.0</version>
+						</requireMavenVersion>
+					</rules>    
+					</configuration>
+				</execution>
+				</executions>
+		</plugin>
+				<configuration>			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-enforcer-plugin</artifactId>
+				<version>3.0.0-M2</version>
+				<executions>
+				<execution>
+					<id>enforce-maven</id>
+					<goals>
+					<goal>enforce</goal>
+					</goals>
+					<configuration>
+					<rules>
+						<requireMavenVersion>
+						<version>3.0</version>
+						</requireMavenVersion>
+					</rules>    
+					</configuration>
+				</execution>
+				</executions>
+		</plugin>
+					<testFailureIgnore>true</te			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-enforcer-plugin</artifactId>
+				<version>3.0.0-M2</version>
+				<executions>
+				<execution>
+					<id>enforce-maven</id>
+					<goals>
+					<goal>enforce</goal>
+					</goals>
+					<configuration>
+					<rules>
+						<requireMavenVersion>
+						<version>3.0</version>
+						</requireMavenVersion>
+					</rules>    
+					</configuration>
+				</execution>
+				</executions>
+		</plugin>stFailureIgnore>
+				</configuration>			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-enforcer-plugin</artifactId>
+				<version>3.0.0-M2</version>
+				<executions>
+				<execution>
+					<id>enforce-maven</id>
+					<goals>
+					<goal>enforce</goal>
+					</goals>
+					<configuration>
+					<rules>
+						<requireMavenVersion>
+						<version>3.0</version>
+						</requireMavenVersion>
+					</rules>    
+					</configuration>
+				</execution>
+				</executions>
+		</plugin>
+			</plugin>			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-enforcer-plugin</artifactId>
+				<version>3.0.0-M2</version>
+				<executions>
+				<execution>
+					<id>enforce-maven</id>
+					<goals>
+					<goal>enforce</goal>
+					</goals>
+					<configuration>
+					<rules>
+						<requireMavenVersion>
+						<version>3.0</version>
+						</requireMavenVersion>
+					</rules>    
+					</configuration>
+				</execution>
+				</executions>
+		</plugin>
+      		<plugin>			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-enforcer-plugin</artifactId>
+				<version>3.0.0-M2</version>
+				<executions>
+				<execution>
+					<id>enforce-maven</id>
+					<goals>
+					<goal>enforce</goal>
+					</goals>
+					<configuration>
+					<rules>
+						<requireMavenVersion>
+						<version>3.0</version>
+						</requireMavenVersion>
+					</rules>    
+					</configuration>
+				</execution>
+				</executions>
+		</plugin>
 				<artifactId>maven-release-plugin</artifactId>
 				<configuration>
 				<autoVersionSubmodules>true</autoVersionSubmodules>
@@ -82,6 +215,26 @@
            		<artifactId>maven-scm-plugin</artifactId>
            		<version>1.11.2</version>
         	</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-enforcer-plugin</artifactId>
+				<version>3.0.0-M2</version>
+				<executions>
+				<execution>
+					<id>enforce-maven</id>
+					<goals>
+					<goal>enforce</goal>
+					</goals>
+					<configuration>
+					<rules>
+						<requireMavenVersion>
+						<version>3.0</version>
+						</requireMavenVersion>
+					</rules>    
+					</configuration>
+				</execution>
+				</executions>
+			</plugin>
 		</plugins>
 	</build>
 <distributionManagement>
