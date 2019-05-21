@@ -71,6 +71,12 @@
 					<testFailureIgnore>true</testFailureIgnore>
 				</configuration>
 			</plugin>
+      		<plugin>
+				<artifactId>maven-release-plugin</artifactId>
+				<configuration>
+				<autoVersionSubmodules>true</autoVersionSubmodules>
+				</configuration>
+			</plugin>
 		</plugins>
 	</build>
 <distributionManagement>
@@ -85,5 +91,11 @@
         <url>http://40.118.14.46:8081/repository/maven-releases/</url>
     </repository>
 </distributionManagement>
+<scm>
+   	<connection>scm:git:git@github.com:di-amine/Projet_CI-CD.git</connection>
+   	<url>http://github.com/Rsnip/projet_ci</url>
+  	<!-- <developerConnection>scm:git:git@github.com:Rsnip/projet_ci.git</developerConnection>-->
+  	<tag>HEAD</tag>
+</scm>
 
 </project>
