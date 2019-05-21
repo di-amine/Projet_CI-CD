@@ -77,6 +77,10 @@
 				<autoVersionSubmodules>true</autoVersionSubmodules>
 				</configuration>
 			</plugin>
+			<plugin>
+           		<artifactId>maven-scm-plugin</artifactId>
+           		<version>1.8.1</version>
+        	</plugin>
 		</plugins>
 	</build>
 <distributionManagement>
